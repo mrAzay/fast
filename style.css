@@ -72,6 +72,13 @@ h3 {
   width: 100%;
 }
 
+.slideshow__profiles img {
+  width: 100%;
+  max-height: 340px;
+  object-fit: cover;
+  display: block;
+}
+
 .slideshow {
   overflow: hidden;
 }
@@ -95,6 +102,8 @@ h3 {
     display: block;
   }
 }
+
+
 
 /**/
 button {
@@ -212,7 +221,7 @@ button:hover {
 }
 
 .main #free {
-  bottom: 25%;
+  bottom: 15%;
   float: right;
   position: absolute;
   right: 10%;
@@ -545,7 +554,7 @@ button:hover {
     line-height: 109.6%;
     letter-spacing: 0.01em;
     color: #ff7e00;
-    max-width: 20px;
+    max-width: 450px;
   }
 }
 
@@ -720,6 +729,7 @@ p {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
+  position: relative;
   color: #FFFFFF;
   text-align: left;
   flex-wrap: wrap;
@@ -1792,7 +1802,10 @@ label {
   }
 
   .footer__contacts img {
-    width: 100% !important;
+    width: 300px;
+    display: block;
+    margin: 0 auto;
+    height: auto;
   }
 }
 
@@ -2055,11 +2068,21 @@ div#gadsf21g {
 
 .arrow-anim1 {
   animation: wiggle 3.5s infinite;
-  padding: 50px 0 0 0;
+  padding: 15px 0 0 0;
 }
 
 .arrow-anim1:hover {
   animation: wiggle 0.5s 0.5s;
+}
+
+.feedback__profiles-info__span {
+  position: absolute;
+  font-weight: 800;
+  font-size: 300px;
+  -webkit-text-stroke: 2px #FF7E00;
+  color: transparent;
+  top: -155px;
+  left: 0;
 }
 
 
@@ -2395,3 +2418,76 @@ div#gadsf21g {
     margin-left: 0 !important;
   }
 }
+
+@media(max-width: 1040px) {
+  .feedback__profiles-info__span {
+    display: none;
+  }
+
+  .feedback__profiles-video {
+    max-width: 700px !important;
+    width: inherit !important;
+  }
+
+  .feedback__profiles-text {
+    max-width: 700px !important;
+  }
+
+  .how {
+    padding-top: 320px !important;
+  }
+
+  .how h3 {
+    margin-bottom: 40px;
+  }
+}
+
+@media(max-width: 1023px) {
+  .program__menu {
+    height: auto;
+  }
+
+  .success__tips {
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .time {
+    padding-bottom: 100px;
+    box-sizing: content-box;
+  }
+
+  .team .arrows {
+    padding-bottom: 50px;
+  }
+}
+
+@media(max-width: 750px) {
+  .tip {
+    flex: 0 0 calc(40% - 20px);
+  }
+
+  .success__tips {
+    flex-wrap: wrap;
+  }
+
+  .time {
+    padding-bottom: 40px;
+  }
+
+  .footer__contacts img {
+    width: 250px;
+  }
+}
+
+@media(max-width: 420px) {
+  .tip {
+    flex: unset;
+  }
+
+  .success__tips {
+    flex-direction: column;
+  }
+}
+

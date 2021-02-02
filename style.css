@@ -927,7 +927,6 @@ p {
 }
 
 .how__item .white {
-  margin-top: -5%;
   font-weight: 800;
   font-size: 64px;
   line-height: 78px;
@@ -1014,7 +1013,9 @@ p {
   }
 }
 
-
+.slideshow {
+  padding-bottom: 200px;
+}
 
 .slideshow-arrow-prev.swiper-button-disabled,
 .slideshow-arrow-nexy.swiper-button-disabled {
@@ -1038,6 +1039,7 @@ p {
 @media (max-width: 1023px) {
   .slideshow {
     padding: 7% 20px 3% !important;
+    min-height: 70vh !important;
   }
 }
 
@@ -1187,7 +1189,7 @@ p {
 
 .program__menu-item div {
   max-height: 0;
-  transition: max-height 500ms ease-in-out;
+  transition: max-height .2s ease-in-out;
   overflow: hidden;
 }
 
@@ -1199,7 +1201,8 @@ p {
 
 @media (max-width: 1023px) {
   .program {
-    padding: 3% 20px 3%;
+    padding: 3% 20px 3% !important;
+    height: 100vh !important;
   }
 
   .program .white {
@@ -1219,9 +1222,9 @@ p {
   }
 
   .program__menu-item p {
-    font-weight: bold;
-    font-size: 18px;
-    line-height: 22px;
+    font-weight: bold !important;
+    font-size: 18px !important;
+    line-height: 22px !important;
   }
 }
 
@@ -1277,7 +1280,7 @@ p {
 @media (max-width: 1023px) {
   .time {
     padding: 0;
-    height: 120vh;
+    height: 120vh !important;
   }
 
   .time-item {
@@ -1408,18 +1411,13 @@ p {
   position: relative;
 }
 
-.team .slide2 {
-  position: relative;
-  width: 100%;
-  overflow: hidden;
-  height: 110px;
-  display: flex;
-  align-items: center;
-}
-
 .vifnslb-element {
-  position: absolute;
-  animation: scroll 20s infinite normal 0s linear;
+  transform: translate3d(0, 0, 0);
+  position: relative;
+  overflow: hidden;
+  animation-name: moveSlideshow;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -1442,15 +1440,24 @@ p {
 }
 
 .vifnslb-bar {
+  width: 50%;
   display: flex;
   justify-content: space-around;
-  width: 100%;
 }
 
-.team-slide2 {
-  width: max-content;
-}
+<<<<<<< HEAD
+=======
+/**/
+.team {
+  background: #343434;
+  box-sizing: border-box;
+  padding: 3% 0 80px;
+  position: relative;
+  padding-top: 126px;
 
+  height: 100%;
+}
+>>>>>>> a2abd7f16d21866fae3128673a3e5a1d91f7bbe8
 
 .first h3 {
   margin-bottom: 100px;
@@ -1578,8 +1585,8 @@ p {
 }
 
 .team-slide2 {
-  font-size: 45px;
   font-weight: 800;
+  font-size: 2rem;
   -webkit-text-stroke: 1px #ff7e00;
   text-stroke: 1px #ff7e00;
   box-sizing: border-box;
@@ -1590,29 +1597,18 @@ p {
 @media (max-width: 1023px) {
   .team-slide2 {
     font-weight: 600 !important;
-    font-size: 30px;
+    font-size: 15px !important;
   }
 }
 
-@media (max-width: 670px) {
-  .team-slide2 {
-    font-weight: 600 !important;
-    font-size: 22px;
-  }
-}
 
-@media (max-width: 480px) {
-  .team-slide2 {
-    font-weight: 600 !important;
-    font-size: 18px;
-  }
-}
 
-@media (max-width: 350px) {
-  .team-slide2 {
-    font-weight: 600 !important;
-    font-size: 16px;
-  }
+.team .slide2 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-around;
 }
 
 
@@ -1842,7 +1838,11 @@ div#gadsf21g {
 }
 
 /*! CSS Used keyframes */
-
+@keyframes moveSlideshow {
+  100% {
+    transform: translateX(-50%);
+  }
+}
 
 /*! CSS Used fontfaces */
 @font-face {
@@ -2316,15 +2316,15 @@ div#gadsf21g {
     padding-bottom: 50px;
   }
 
-
-
-  .swiper-slide>img {
-    width: 100%;
+  .swiper-container:not(.hooper-list) {
+    overflow: hidden !important;
+    margin-left: -30px !important;
+    width: calc(100% + 60px);
   }
 
   .slideshow {
     height: auto;
-    min-height: auto;
+    min-height: auto !important;
     padding: 100px;
   }
 
@@ -2388,16 +2388,7 @@ div#gadsf21g {
   .team .arrows {
     padding-bottom: 10px;
   }
-
-  .team-slide div img {
-    width: 100% !important;
-  }
-
-  .team-slide div {
-    width: 100% !important;
-  }
-
-  form {
+  form{
     padding-bottom: 50px;
   }
 
@@ -2413,10 +2404,15 @@ div#gadsf21g {
 
   .feedback__profiles-video {
     max-width: 700px !important;
+    width: inherit !important;
   }
 
   .feedback__profiles-text {
     max-width: 700px !important;
+  }
+
+  .how {
+    padding-top: 320px !important;
   }
 
   .how h3 {

@@ -1,0 +1,340 @@
+<ul
+                  class="hooper-track swiper-wrapper"
+                  style="transform: translate(0px, 0px)"
+                >
+                  <li
+                    class="team-slide hooper-slide is-active is-current swiper-slide"
+                    style="width: 694.769px"
+                  >
+                    <div class="team-item-wrapper">
+                      <div>
+                        <img
+                          src="src/assets/team-slide-man.png"
+                          alt="Team Photo"
+                        />
+                      </div>
+                      <div>
+                        <p>
+                          «Дикий офис» — решение для многих бизнес-проблем.
+                          Тренинг нацелен на повышение показателей эффективности
+                          компании, является универсальным инструментом для
+                          улучшения взаимоотношений в коллективе и развития
+                          осознанности, проактивности, навыков коммуникации и
+                          работы в команде. Идея создания была спонтанной и
+                          интуитивной, однако в ходе разработки тренинга я
+                          пришел к выводу, что она — гениальна. Это как
+                          тренажерный зал, только для прокачки полезных
+                          навыков».
+                        </p>
+                      </div>
+                    </div>
+                    <div class="team__name">
+                      <p class="team__name-descr">
+                        <span class="orange">Дмитрий Лыков</span>, автор
+                        тренинга, бизнесмен, коуч, эксперт в области
+                        коммуникативного воздействия.
+                      </p>
+                    </div>
+                  </li>
+                  <li
+                    class="team-slide hooper-slide is-active is-current swiper-slide"
+                    style="width: 694.769px"
+                  >
+                    <div class="team-item-wrapper">
+                      <div>
+                        <img src="src/assets/angela.png" alt="Team Photo" />
+                      </div>
+                      <div>
+                        <p>
+                          «Человек — существо биологическое, а социум и мышление
+                          делает его жизнь содержательной, значимой, полной.
+                          Самый эффективный метод обучения как команды, так и
+                          каждого ее участника, — интерактивное взаимодействие,
+                          в ходе которого на практике отрабатываются
+                          определенные навыки и развиваются способности. «Дикий
+                          Офис» — создан в уникальном формате, объединяющем
+                          игровой процесс и тренинг, что дает возможность
+                          «прокачать» и развить как личные, так и командные
+                          навыки.»
+                        </p>
+                      </div>
+                    </div>
+                    <div class="team__name">
+                      <p class="team__name-descr">
+                        <span class="orange">Анжела Топчий</span>, соавтор
+                        инструментов и методик тренинга, руководитель проекта,
+                        эксперт в области обучения
+                      </p>
+                    </div>
+                  </li>
+                  <li
+                    class="team-slide hooper-slide is-active is-current swiper-slide"
+                    style="width: 694.769px"
+                  >
+                    <div class="team-item-wrapper">
+                      <div>
+                        <img
+                          src="src/assets/team-slide-man-2.png"
+                          alt="Team Photo"
+                        />
+                      </div>
+                      <div>
+                        <p>
+                          «Когда я впервые услышал об идее создания такого
+                          продукта — подумал, что это инновационный метод для
+                          подачи бизнес-тренингов. На протяжении многих лет я
+                          сталкивался с потерей мотивации сотрудниками и их
+                          нежеланием быть проактивными в рабочих процессах.
+                          Проблемы в коммуникации приводили к «замалчиванию»
+                          идей и неспособности отстоять свое мнение. «Дикий
+                          Офис» помогает повысить качество общения между
+                          сотрудниками, благодаря чему коллектив становится
+                          сплоченным и как следствие эффективным».
+                        </p>
+                      </div>
+                    </div>
+                    <div class="team__name">
+                      <p class="team__name-descr">
+                        <span class="orange">Александр Погорелый</span>, соавтор
+                        тренинга как бизнес-инструмента, бизнесмен, эксперт в
+                        управлении персоналом.
+                      </p>
+                    </div>
+                  </li>
+                  <li
+                    class="team-slide hooper-slide is-active is-current swiper-slide"
+                    style="width: 694.769px"
+                  >
+                    <div class="team-item-wrapper">
+                      <div>
+                        <img
+                          src="src/assets/team-slide-man-3.png"
+                          alt="Team Photo"
+                        />
+                      </div>
+                      <div>
+                        <p>
+                          «Ценность каждого продукта — результат, который он
+                          приносит клиенту. Занимаясь оптимизацией бизнес
+                          процессов и являясь менеджером проектов, я тестировала
+                          множество инструментов для повышения эффективности
+                          компании, однако поняла, что немалую важность занимает
+                          работа в команде. Именно «Дикий офис» может принести
+                          пользу для любого вида бизнеса - это эволюция и
+                          сплоченность сотрудников, ведь именно люди являются
+                          важнейшим ресурсом для достижения успеха, развития и
+                          масштабирования».
+                        </p>
+                      </div>
+                    </div>
+                    <div class="team__name">
+                      <p class="team__name-descr">
+                        <span class="orange">Ольга Малькут</span>, соавтор
+                        тренинга как бизнес-инструмента, бизнесмен, эксперт в
+                        управлении персоналом.
+                      </p>
+                    </div>
+                  </li>
+                  <li
+                    class="team-slide hooper-slide is-active is-current swiper-slide"
+                    style="width: 694.769px"
+                  >
+                    <div class="team-item-wrapper">
+                      <div>
+                        <img
+                          src="src/assets/team-slide-man-4.png"
+                          alt="Team Photo"
+                        />
+                      </div>
+                      <div>
+                        <p>
+                          «Дикий офис» — отличное решение для комфортного и
+                          продуктивного взаимодействия участников тренинга.
+                          Игровая среда позволяет в непринужденной обстановке
+                          проявить личностный потенциал, а благодаря участию
+                          психолога могут быть выявлены скрытые способности
+                          сотрудников, полезные для компании. Руководитель же
+                          обеспечивает совместную эмоциональную разрядку
+                          коллективу. Вследствие чего повышается лояльность
+                          сотрудников к Компании, поскольку тренинг является
+                          интеллектуально-развлекательным досугом».
+                        </p>
+                      </div>
+                    </div>
+                    <div class="team__name">
+                      <p class="team__name-descr">
+                        <span class="orange">Анна Бурдейная</span>, координатор
+                        проекта, эксперт в фундаментальной и прикладной
+                        психологии.
+                      </p>
+                    </div>
+                  </li>
+                  <li
+                    class="team-slide hooper-slide is-active is-current swiper-slide"
+                    style="width: 694.769px"
+                  >
+                    <div class="team-item-wrapper">
+                      <div>
+                        <img
+                          src="src/assets/team-slide-man-5.png"
+                          alt="Team Photo"
+                        />
+                      </div>
+                      <div>
+                        <p>
+                          «Изучая корпоративную психологию, я пришла к выводу,
+                          что взаимоотношения в коллективе — это фундамент
+                          социально-психологического климата в компании.
+                          Энергобаланс персонала комплексно влияет на общую
+                          производительность и эффективность бизнеса. Необходимо
+                          наладить коммуникацию и синергию между сотрудниками,
+                          повысить сплоченность команды, скорректировать
+                          дисбаланс в коллективе. Ведь именно персонал
+                          определяет факторы негативного влияния на
+                          психологический климат, а своевременное их выявление и
+                          устранение в разы улучшает командное взаимодействие».
+                        </p>
+                      </div>
+                    </div>
+                    <div class="team__name">
+                      <p class="team__name-descr">
+                        <span class="orange">Оксана Атшибаева</span>, психолог
+                      </p>
+                    </div>
+                  </li>
+                </ul>
+
+
+
+
+                .team-slide {
+    flex-direction: column;
+}
+
+.team-slide div:nth-child(2) {
+    padding: 0;
+}
+
+.team-slide div p:not(.white)::before {
+    display: none;
+}
+
+.team-slide .team-item-wrapper {
+    margin: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    max-width: inherit!important;
+}
+
+.team-slide .team-item-wrapper p {
+    position: relative;
+}
+
+.team-slide .team-item-wrapper p::after {
+    content: '“';
+    position: absolute;
+    left: 0;
+    top: 0;
+    transform: translate(0, -42%);
+    font-weight: 800;
+    font-size: 300px;
+    line-height: 300px;
+    color: transparent;
+    -webkit-text-stroke: 2px #FF7E00;
+}
+
+.team-slide .team__name {
+    margin: 17px 0 0 0!important;
+    max-width: inherit!important;
+    width: 100%;
+}
+
+.team-slide .team__name .team__name-descr {
+    font-size: 22px;
+    line-height: 24px;
+    color: #fff;
+    font-weight: 500;
+}
+
+.team__name-descr span {
+    color: #ff7e00;
+    font-weight: 600;
+}
+
+@media(max-width: 1023px) {
+    .team-slide div:nth-child(2) {
+        padding: 0!important;
+    }
+
+    .team-slide .team-item-wrapper div {
+        max-width: unset!important;
+        width: auto;
+    }
+
+    .team-slide .team-item-wrapper p:after {
+        display: none;
+    }
+
+    .team .container {
+        min-height: auto;
+    }
+}
+
+@media(max-width: 570px) {
+    .team-slide .team-item-wrapper {
+        flex-direction: column;
+    }
+
+    .team-slide div img {
+        margin-bottom: 20px;
+    }
+
+    .team .arrows {
+        width: 90%!important;
+        margin: 0 auto;
+    }
+
+    .team-slide .team-item-wrapper div {
+        margin: 0!important;
+    }
+
+    .team .hooper-list {
+        overflow: hidden!important;
+    }
+}
+
+
+
+const swiperThree = new Swiper(".hooper-list", {
+  slidesPerView: 1.5,
+  spaceBetween: 100,
+  navigation: {
+    nextEl: ".team-next",
+    prevEl: ".team-prev",
+  },
+  breakpoints: {
+    320: {
+      slidesPerView: 1,
+      spaceBetween: 0,
+    },
+    645: {
+      slidesPerView: 1.1,
+      spaceBetween: 20,
+    },
+    820: {
+      slidesPerView: 1.35,
+      spaceBetween: 40,
+    },
+    1100: {
+      slidesPerView: 1.4,
+      spaceBetween: 50,
+    },
+    1223: {
+      slidesPerView: 1.5,
+      spaceBetween: 100,
+    },
+  },
+});

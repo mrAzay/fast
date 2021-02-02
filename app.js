@@ -70,7 +70,8 @@ const swiperTwo = new Swiper(".slideshow__profiles", {
       },
     },
     820: {
-      slidesPerView: 1,
+      slidesPerView: 2,
+      spaceBetween: 25,
       navigation: {
         nextEl: ".slideshow-arrow-next",
         prevEl: ".slideshow-arrow-prev",

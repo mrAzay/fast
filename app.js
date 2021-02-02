@@ -37,8 +37,8 @@ for (let i = 0; i < youtube.length; i++) {
     iframe.setAttribute(
       "src",
       "https://www.youtube.com/embed/" +
-        this.dataset.embed +
-        "?rel=0&showinfo=0&autoplay=1"
+      this.dataset.embed +
+      "?rel=0&showinfo=0&autoplay=1"
     );
     this.innerHTML = "";
     this.appendChild(iframe);
@@ -82,10 +82,21 @@ const swiperTwo = new Swiper(".slideshow__profiles", {
 
 const swiperThree = new Swiper(".hooper-list", {
   slidesPerView: 1,
-  spaceBetween: 114,
+
   navigation: {
     nextEl: ".team-next",
     prevEl: ".team-prev",
+  },
+  breakpoints: {
+    // when window width is >= 320px
+    460: {
+      slidesPerView: 1.4,
+      spaceBetween: 114,
+      navigation: {
+        nextEl: ".team-next",
+        prevEl: ".team-prev",
+      },
+    },
   },
 });
 
@@ -96,3 +107,25 @@ document.querySelector("#free").addEventListener("click", () => {
 document.querySelector(".game-complecs").addEventListener("click", () => {
   document.querySelector(".about").scrollIntoView({ behavior: "smooth" });
 });
+
+
+var women = document.querySelector('#women');
+var people = document.querySelector('#people');
+var ofline = document.querySelector('.ofline-img');
+var online = document.querySelector('.online-img');
+var womenTwo = document.querySelector('.woomenTwo');
+new simpleParallax(women);
+new simpleParallax(people);
+new simpleParallax(ofline);
+new simpleParallax(online);
+new simpleParallax(womenTwo);
+
+document.querySelector('form button'). addEventListener('click', (e)=>{
+  e.preventDefault()
+  const params = new URLSearchParams()
+  params.append('name', document.querySelector('#name').value)
+  params.append('mail', document.querySelector('#mail').value)
+  params.append('phone', document.querySelector('#phone').value)
+
+  axios.post('mail.php', params)
+})

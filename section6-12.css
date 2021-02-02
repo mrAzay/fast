@@ -7,6 +7,19 @@
     }
     .feedback .arrows{
         right: 30px;
+        width: 80%;
+        bottom: 30px;
+    }
+    .feedback__profiles-item{
+        flex-direction: column;
+    }
+    .feedback__profiles-info{
+        margin-bottom: 120px;
+    }
+    .feedback__profiles-video{
+        width: 100vw;
+        position: relative;
+        left: -10%;
     }
     .how{
         padding-top: 80px;
@@ -23,6 +36,7 @@
     }
     .slideshow .arrows{
         bottom: 50px;
+        width: 80%;
         right: 30px;
     }
     .program{
@@ -46,6 +60,21 @@
 @media (max-width: 650px) {
     .time-item__wrapper{
         flex-direction: column;
+        align-items: start;
+    }
+    .how__item{
+        width: 100%;
+        max-width: 100%;
+    }
+    .how__item p{
+        width: 100%;
+        max-width: 86vw;
+    }
+    .how__item img{
+        width: 100vw;
+        max-width: initial;
+        position: relative;
+        left: -6vw;
     }
 }
 
@@ -55,6 +84,12 @@
         width: 100% !important;
     }
     .slideshow{
-        min-height: 300px;
+        min-height: 500px;
+    }
+    .about p.orange{
+        font-size: 36px;
+    }
+    .program__menu-item p.text{
+        font-weight: 400;
     }
 }

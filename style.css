@@ -1268,9 +1268,9 @@ p {
   }
 
   .program__menu-item p {
-    font-weight: bold !important;
-    font-size: 18px !important;
-    line-height: 22px !important;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
   }
 }
 
@@ -2176,7 +2176,7 @@ div#gadsf21g {
   }
 
   .about .orange {
-    font-size: 24px !important;
+    font-size: 24px;
   }
 
   .whom__bottom__left .list-item .white {
@@ -2332,7 +2332,7 @@ div#gadsf21g {
 
   .slideshow {
     height: auto;
-    min-height: auto !important;
+    min-height: auto;
     padding: 100px;
   }
 
@@ -2414,7 +2414,6 @@ div#gadsf21g {
 
   .feedback__profiles-video {
     max-width: 700px !important;
-    width: inherit !important;
   }
 
   .feedback__profiles-text {

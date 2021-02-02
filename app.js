@@ -62,9 +62,15 @@ const swiperTwo = new Swiper(".slideshow__profiles", {
   },
   breakpoints: {
     // when window width is >= 320px
-    420: {
-      slidesPerView: 2.5,
-      spaceBetween: 26,
+    320: {
+      slidesPerView: 1,
+      navigation: {
+        nextEl: ".slideshow-arrow-next",
+        prevEl: ".slideshow-arrow-prev",
+      },
+    },
+    820: {
+      slidesPerView: 1,
       navigation: {
         nextEl: ".slideshow-arrow-next",
         prevEl: ".slideshow-arrow-prev",

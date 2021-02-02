@@ -1,0 +1,123 @@
+.team-slide {
+    flex-direction: column;
+}
+
+.team-slide div:nth-child(2) {
+    padding: 0;
+}
+
+.team-slide div p:not(.white)::before {
+    display: none;
+}
+
+.team-slide .team-item-wrapper {
+    margin: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    max-width: inherit!important;
+}
+
+.team-slide .team-item-wrapper p {
+    position: relative;
+}
+
+.team-slide .team-item-wrapper p::after {
+    content: '“';
+    position: absolute;
+    left: 0;
+    top: 0;
+    transform: translate(0, -42%);
+    font-weight: 800;
+    font-size: 300px;
+    line-height: 300px;
+    color: transparent;
+    -webkit-text-stroke: 2px #FF7E00;
+}
+
+.team-slide .team__name {
+    margin: 17px 0 0 0!important;
+    max-width: inherit!important;
+    width: 100%;
+}
+
+.team-slide .team__name .team__name-descr {
+    font-size: 22px;
+    line-height: 24px;
+    color: #fff;
+    font-weight: 500;
+}
+
+.team__name-descr span {
+    color: #ff7e00;
+    font-weight: 600;
+}
+
+@media(max-width: 1023px) {
+    .team-slide div:nth-child(2) {
+        padding: 0!important;
+    }
+
+    .team-slide .team-item-wrapper div {
+        max-width: unset!important;
+        width: auto;
+    }
+
+    .team-slide .team-item-wrapper p:after {
+        display: none;
+    }
+
+    .team .container {
+        min-height: auto;
+    }
+}
+
+@media(max-width: 570px) {
+    .team-slide .team-item-wrapper {
+        flex-direction: column;
+    }
+
+    .team-slide div img {
+        margin-bottom: 20px;
+    }
+
+    .team .arrows {
+        width: 90%!important;
+        margin: 0 auto;
+    }
+
+    .team-slide .team-item-wrapper div {
+        margin: 0!important;
+    }
+
+    .team .hooper-list {
+        overflow: hidden!important;
+    }
+}
+
+/* @media(max-width: 420px) {
+    .team-slide div img {
+        max-width: inherit !important;
+        width: auto !important;
+    }
+
+    .team-slide.swiper-slide {
+        max-width: 400px;
+        width: unset!important;
+    }
+
+    .team-slide .team-item-wrapper {
+        width: 90% !important;
+    }
+
+    .team-slide div {
+        width: 90%!important;
+        margin: 0 auto;
+    }
+
+    .team .swiper-container {
+        margin-left: 0!important;
+    }
+} */

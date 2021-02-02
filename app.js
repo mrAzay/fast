@@ -81,11 +81,33 @@ const swiperTwo = new Swiper(".slideshow__profiles", {
 });
 
 const swiperThree = new Swiper(".hooper-list", {
-  slidesPerView: 1,
-  spaceBetween: 114,
+  slidesPerView: 1.5,
+  spaceBetween: 100,
   navigation: {
     nextEl: ".team-next",
     prevEl: ".team-prev",
+  },
+  breakpoints: {
+    320: {
+      slidesPerView: 1,
+      spaceBetween: 0,
+    },
+    645: {
+      slidesPerView: 1.1,
+      spaceBetween: 20,
+    },
+    820: {
+      slidesPerView: 1.35,
+      spaceBetween: 40,
+    },
+    1100: {
+      slidesPerView: 1.4,
+      spaceBetween: 50,
+    },
+    1223: {
+      slidesPerView: 1.5,
+      spaceBetween: 100,
+    },
   },
 });
 

@@ -386,18 +386,7 @@ button:hover {
 }
 
 /**/
-.numbers {
-  background: #343434;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: space-around;
-  box-sizing: border-box;
-  padding: 3% 200px 3%;
-  position: relative;
-  height: 100%;
-  min-height: 100vh;
-}
+
 
 .numbers-item {
   position: relative;
@@ -539,15 +528,6 @@ button:hover {
   }
 }
 
-/**/
-.mission {
-  height: 100%;
-  box-sizing: border-box;
-  padding: 3% 200px 3%;
-  position: relative;
-  padding-bottom: 200px;
-  background: #343434;
-}
 
 
 .mission .orange {
@@ -580,17 +560,6 @@ p {
   text-align: start;
 }
 
-.success {
-  height: 100%;
-  min-height: 100vh;
-  box-sizing: border-box;
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: space-around;
-  background: #343434;
-}
 
 .success:nth-child(n):not(img) {
   padding: 3% 200px 3%;
@@ -738,15 +707,6 @@ p {
   text-align: start;
 }
 
-.feedback {
-  height: 100%;
-  min-height: 100vh;
-  box-sizing: border-box;
-  padding: 7% 0 3%;
-  position: relative;
-  background: #343434;
-  padding-bottom: 400px;
-}
 
 .feedback__profiles-item {
   display: flex;
@@ -943,19 +903,6 @@ p {
 }
 
 /**/
-.how {
-  height: 100%;
-  min-height: 150vh;
-  box-sizing: border-box;
-  padding: 3% 200px 3%;
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: space-around;
-  text-align: start;
-  background: #343434;
-}
 
 .how h3 {
   padding-top: 65px;
@@ -1039,14 +986,7 @@ p {
 }
 
 /**/
-.slideshow {
-  height: 100%;
-  box-sizing: border-box;
-  padding: 7% 0 3%;
-  position: relative;
-  background: #343434;
-  padding-bottom: 300px;
-}
+
 
 .slideshow h3 {
   padding-bottom: 100px;
@@ -1199,20 +1139,7 @@ p {
   }
 }
 
-/**/
-.program {
-  background: #343434;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: space-around;
-  box-sizing: border-box;
-  padding: 3% 200px 3%;
-  position: relative;
-  height: 100%;
-  min-height: 70vh;
-  padding-bottom: 200px;
-}
+
 
 .program p {
   text-align: start;
@@ -1298,20 +1225,7 @@ p {
   }
 }
 
-/**/
-.time {
-  background: #343434;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-  box-sizing: border-box;
-  padding: 0 200px 3%;
-  position: relative;
-  height: 100%;
-  min-height: 70vh;
-  padding-bottom: 200px;
-}
+
 
 .time-item {
   position: relative;
@@ -1537,16 +1451,6 @@ p {
   width: max-content;
 }
 
-/**/
-.team {
-  background: #343434;
-  box-sizing: border-box;
-  padding: 3% 0 0;
-  position: relative;
-  padding-top: 126px;
-
-  height: 100%;
-}
 
 .first h3 {
   margin-bottom: 100px;
@@ -1713,7 +1617,11 @@ p {
 
 
 
-
+@media(max-width: 530px){
+  .how__item .simpleParallax{
+    min-width: auto;
+  }
+}
 
 @media (max-width: 1023px) {
   .team {
@@ -1801,16 +1709,7 @@ label {
   color: #ffffff;
 }
 
-/**/
-.footer {
-  background: #343434;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  box-sizing: border-box;
-  padding-top: 200px;
-  position: relative;
-}
+
 
 .footer p {
   width: 60%;

@@ -7,7 +7,7 @@ section {
 }
 
 .container {
-  max-width: 1440px;
+  max-width: 1450px;
   width: 100%;
   margin: 0 auto;
   padding: 0 174px;
@@ -23,9 +23,9 @@ section {
 }
 
 
-@media(max-width: 1440px) {
+@media(max-width: 1450px) {
   .container {
-    padding: 0 50px;
+    padding: 0 150px;
   }
 }
 
@@ -114,6 +114,7 @@ button {
   font-weight: bold;
   font-size: 16px;
   padding: 15px 25px;
+  cursor: pointer;
   outline: none;
 }
 
@@ -144,8 +145,13 @@ button:hover {
   height: 100%;
   min-height: 100vh;
   box-sizing: border-box;
-  padding: 3% 10% 200px 10%;
   position: relative;
+}
+
+.main .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .main__top {
@@ -158,8 +164,6 @@ button:hover {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  max-width: 70%;
-  margin-top: 10%;
 }
 
 .main__bottom h2 {
@@ -168,6 +172,10 @@ button:hover {
   line-height: 39px;
   color: #ffffff;
   margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
 }
 
 .main__bottom h1 {
@@ -177,7 +185,7 @@ button:hover {
   text-transform: uppercase;
   text-align: start;
   color: #ffffff;
-  margin: 7% 0 7% 0;
+  margin: 7% 0 3% 0;
 }
 
 .main__bottom img {
@@ -221,29 +229,24 @@ button:hover {
 }
 
 .main #free {
-  bottom: 15%;
-  float: right;
-  position: absolute;
-  right: 10%;
+
   height: 100px;
   width: 100px;
 }
 
 @media (max-width: 1023px) {
-  .main {
-    padding: 3% 20px 0;
-  }
+
 
   .main__top img {
     width: 100px;
   }
 
+  .main .container {
+    display: block;
+  }
+
   .main__bottom {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    max-width: 100%;
-    margin-top: 15vh;
+    margin-top: 20vh;
   }
 
   .main__bottom h2 {
@@ -257,6 +260,14 @@ button:hover {
     text-align: start;
   }
 
+  .arrow-anim1 {
+    display: none;
+  }
+
+  .main__bottom h2 {
+    max-width: 203px;
+  }
+
   .main__bottom h1 {
     font-weight: 900;
     font-size: 51px;
@@ -267,12 +278,7 @@ button:hover {
     margin: 10% 0;
   }
 
-  .main__bottom img {
-    width: 50px;
-    height: 50px;
-    position: absolute;
-    bottom: 3%;
-  }
+
 }
 
 .bottomarrow-cta {
@@ -422,12 +428,23 @@ button:hover {
   left: 2%;
 }
 
+
 .numbers img {
+  top: 0;
+  z-index: 0;
+  max-width: 633px;
+  max-height: 410px;
+  right: 135px;
+  width: 100%;
+}
+
+.numbers .simpleParallax {
+  overflow: hidden;
   position: absolute;
   top: 0;
   z-index: 0;
-  max-width: 824px;
-  max-height: 533px;
+  max-width: 633px;
+  max-height: 410px;
   right: 135px;
   width: 100%;
   height: 100%;
@@ -579,13 +596,19 @@ p {
   padding: 3% 200px 3%;
 }
 
-.success .container>img {
+.success #people {
+
+  width: 100%;
+}
+
+.success .simpleParallax {
   position: absolute;
-  top: -32px;
+  top: -132px;
   right: 165px;
   z-index: 0;
-  max-width: 100%;
-  width: 50%;
+  max-width: 730px;
+  width: 100%;
+  min-height: 368px;
 }
 
 .success .white {
@@ -774,11 +797,6 @@ p {
   margin-bottom: 188px;
 }
 
-@media (max-width: 1023px) {
-  .feedback h3 {
-    padding-left: 20px;
-  }
-}
 
 .feedback__slider-wrp {
   position: relative;
@@ -950,6 +968,13 @@ p {
   grid-column-gap: 10%;
 }
 
+.how__item .simpleParallax{
+  width: 100%;
+  min-width: 530px;
+
+  grid-area: imag;
+}
+
 .how__item+.how__item {
   margin-top: 240px;
 }
@@ -1019,17 +1044,14 @@ p {
   padding: 7% 0 3%;
   position: relative;
   background: #343434;
+  padding-bottom: 300px;
 }
 
 .slideshow h3 {
   padding-bottom: 100px;
 }
 
-@media (max-width: 1023px) {
-  .slideshow h3 {
-    padding-left: 20px !important;
-  }
-}
+
 
 .slideshow__slider-wrp {
   position: relative;
@@ -1067,7 +1089,7 @@ p {
   padding: 0 5%;
   position: absolute;
   width: 90%;
-  bottom: 100px;
+  bottom: 200px;
 }
 
 .about .container {
@@ -1190,7 +1212,8 @@ p {
   padding: 3% 200px 3%;
   position: relative;
   height: 100%;
-  min-height: 100vh;
+  min-height: 70vh;
+  padding-bottom: 200px;
 }
 
 .program p {
@@ -1290,6 +1313,7 @@ p {
   position: relative;
   height: 100%;
   min-height: 70vh;
+  padding-bottom: 200px;
 }
 
 .time-item {
@@ -1324,13 +1348,15 @@ p {
   bottom: -5%;
   left: 2%;
 }
-
-.time img {
+.time .simpleParallax{
   position: absolute;
   top: 0;
   left: 40%;
   z-index: 0;
   width: 50%;
+}
+.time img {
+ width: 100%;
 }
 
 .first .container {
@@ -1383,7 +1409,13 @@ p {
   font-size: 64px;
   line-height: 70px;
   color: #ffffff;
+  width: auto !important;
   margin-bottom: 40px;
+}
+
+.first__item .first__item:first-child .white {
+  max-width: 600px;
+  margin-top: 100px;
 }
 
 .first__item .small {
@@ -1391,6 +1423,7 @@ p {
   font-size: 24px;
   line-height: 36px;
   color: #ffffff;
+  max-width: 853px;
   margin-bottom: 80px;
 }
 
@@ -1472,9 +1505,24 @@ p {
   animation-iteration-count: infinite;
   animation-timing-function: linear;
   display: flex;
-  width: max-content;
-  min-width: 200%;
-  padding-bottom: 30px;
+  align-items: center;
+  justify-content: space-between;
+  width: 200vw;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translate(100vw, 0);
+  }
+
+  100% {
+    transform: translate(-300vw, 0)
+  }
+}
+
+.vifnslb-element2 {
+  animation-delay: 10s;
+  transform: translate(100vw, 0);
 }
 
 .vifnslb-bar {
@@ -1489,7 +1537,13 @@ p {
   box-sizing: border-box;
   padding: 3% 0 80px;
   position: relative;
+  padding-top: 126px;
+
   height: 100%;
+}
+
+.first h3 {
+  margin-bottom: 100px;
 }
 
 .team h3 {
@@ -1500,11 +1554,6 @@ p {
   overflow: inherit !important;
 }
 
-@media (max-width: 1023px) {
-  .team h3 {
-    padding-left: 20px !important;
-  }
-}
 
 .team__slider-wrp {
   position: relative;
@@ -1557,14 +1606,15 @@ p {
 .team-slide div p:not(.white):before {
   content: "“";
   font-weight: 800;
-  font-size: -150px;
   line-height: 366px;
   -webkit-text-stroke: 2px #ff7e00;
   text-stroke: 2px #ff7e00;
   box-sizing: border-box;
   color: rgba(52, 52, 52, 0);
   position: absolute;
-  top: -15%;
+  top: -60px;
+  left: -5px;
+  font-size: 300px;
 }
 
 .team-slide div img {
@@ -1609,8 +1659,11 @@ p {
 .team .arrows {
   display: flex;
   justify-content: space-between;
-  padding: 0 3%;
+  padding: 0 4%;
   width: 90%;
+  margin-top: -20px;
+  z-index: 22222;
+  position: relative;
   padding-bottom: 200px;
 }
 
@@ -1679,8 +1732,9 @@ form {
   color: #ffffff;
   margin: 50px 0;
   position: relative;
-  width: -15%;
   padding-bottom: 250px;
+  width: 100%;
+  max-width: 600px;
 }
 
 input {
@@ -1692,6 +1746,10 @@ input {
   outline: none;
   color: white;
   margin-bottom: 10px;
+}
+
+form button {
+  margin-top: 65px;
 }
 
 @media (max-width: 1023px) {
@@ -1729,7 +1787,6 @@ label {
   flex-direction: column;
   align-items: flex-start;
   box-sizing: border-box;
-  padding: 5% 200px 5%;
   padding-top: 200px;
   position: relative;
 }
@@ -1775,10 +1832,21 @@ label {
   align-items: center;
 }
 
+form input {
+  max-width: 521px;
+  margin-top: 5px;
+}
+
+.footer-wrap {
+  display: flex;
+  justify-content: start;
+}
+
+footer.footer .footer-wrap p {
+  width: auto !important;
+}
+
 @media (max-width: 1023px) {
-  .footer {
-    padding: 5% 20px 5% !important;
-  }
 
   .footer p {
     width: 80% !important;
@@ -1822,15 +1890,17 @@ label {
     font-size: 36px !important;
     line-height: 44px !important;
   }
+
 }
 
 .copy {
-  font-weight: 800;
   font-size: 15px;
   line-height: 102.5%;
   letter-spacing: 0.04em;
   color: #ffffff;
-  margin-top: 100px;
+  font-weight: normal !important;
+
+  padding-bottom: 100px;
   width: 100% !important;
 }
 
@@ -1838,6 +1908,7 @@ label {
   .copy {
     text-align: center !important;
   }
+
 }
 
 /**/
@@ -2210,7 +2281,8 @@ div#gadsf21g {
   }
 
   .time-item:first-child {
-    margin-top: 40px;
+    margin-top: 40px !important;
+    margin-bottom: 40px !important;
   }
 
   .arrow-anim1 {
@@ -2301,7 +2373,7 @@ div#gadsf21g {
   }
 
   .feedback__profiles-video {
-    width: 100vw;
+    width: 100vw !important;
     max-width: none;
   }
 
@@ -2384,23 +2456,27 @@ div#gadsf21g {
     font-size: 140px;
     line-height: 171px;
   }
-  .time{
+
+  .time {
     min-height: auto;
     height: auto;
     padding-top: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 100px !important;
   }
-  .team{
+
+  .team {
     min-height: auto !important;
     height: auto !important;
   }
-  .team .arrows{
+
+  .team .arrows {
     padding-bottom: 10px;
   }
   form{
     padding-bottom: 50px;
   }
-  .team-slide2{
+
+  .team-slide2 {
     margin-left: 0 !important;
   }
 }
@@ -2477,3 +2553,7 @@ div#gadsf21g {
   }
 }
 
+footer.footer .copy {
+  width: 100% !important;
+  max-width: none !important;
+}

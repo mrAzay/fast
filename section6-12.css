@@ -19,7 +19,6 @@
     .feedback__profiles-video{
         width: 100vw;
         position: relative;
-        left: -10%;
     }
     .how{
         padding-top: 80px;
@@ -70,19 +69,39 @@
         width: 100%;
         max-width: 86vw;
     }
-    .how__item img{
+    .how__item img,
+    .numbers img{
         width: 100vw;
         max-width: initial;
-        position: relative;
-        left: -6vw;
+        margin-left: -30px;
+    }
+
+    .feedback__profiles-item{
+        align-items: flex-start;
+    }
+    .feedback__profiles-video{
+        margin-left: -30px;
     }
 }
 
-@media (max-width: 450px) {
-    .swiper-container {
-        overflow: hidden;
+@media (max-width: 460px) {
+    .swiper-container:not(.feedback__slider-wrp) {
+        overflow: hidden !important;
         width: 100% !important;
     }
+    .team-slide div:nth-child(2){
+        margin-left: 0 !important;
+    }
+    .team-slide div p:not(.white):before{
+        left: 0;
+    }
+    .main__bottom{
+        max-width: 100%;
+    }
+    .footer-wrap{
+        flex-direction: column;
+    }
+    
     .slideshow{
         min-height: 500px;
     }

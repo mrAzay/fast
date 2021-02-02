@@ -96,28 +96,3 @@
         overflow: hidden!important;
     }
 }
-
-/* @media(max-width: 420px) {
-    .team-slide div img {
-        max-width: inherit !important;
-        width: auto !important;
-    }
-
-    .team-slide.swiper-slide {
-        max-width: 400px;
-        width: unset!important;
-    }
-
-    .team-slide .team-item-wrapper {
-        width: 90% !important;
-    }
-
-    .team-slide div {
-        width: 90%!important;
-        margin: 0 auto;
-    }
-
-    .team .swiper-container {
-        margin-left: 0!important;
-    }
-} */

@@ -1,85 +1,104 @@
 @media (max-width: 1035px) {
-    .feedback{
+    .feedback {
         padding-bottom: 50px;
     }
-    .feedback h3{
+
+    .feedback h3 {
         margin-bottom: 50px;
     }
-    .feedback .arrows{
+
+    .feedback .arrows {
         right: 30px;
         width: 80%;
         bottom: 30px;
     }
-    .feedback__profiles-item{
+
+    .feedback__profiles-item {
         flex-direction: column;
     }
-    .feedback__profiles-info{
+
+    .feedback__profiles-info {
         margin-bottom: 120px;
     }
-    .feedback__profiles-video{
+
+    .feedback__profiles-video {
         width: 100vw;
         position: relative;
     }
-    .how{
+
+    .how {
         padding-top: 80px;
     }
-    .how__item+.how__item{
+
+    .how__item+.how__item {
         margin-top: 100px;
     }
-    .how__item img{
+
+    .how__item img {
         width: 100%;
     }
-    .slideshow{
+
+    .slideshow {
         padding-bottom: 80px;
         min-height: 400px;
     }
-    .slideshow .arrows{
+
+    .slideshow .arrows {
         bottom: 50px;
         width: 80%;
         right: 30px;
     }
-    .program{
+
+    .program {
         min-height: auto;
         height: auto;
         padding-bottom: 80px;
     }
-    .program p.white{
+
+    .program p.white {
         margin: 50px 0;
     }
-    .time{
+
+    .time {
         height: auto;
     }
-    .time-item__wrapper{
+
+    .time-item__wrapper {
         display: flex;
         width: 100%;
         align-items: center;
         justify-content: space-between;
     }
 }
+
 @media (max-width: 650px) {
-    .time-item__wrapper{
+    .time-item__wrapper {
         flex-direction: column;
         align-items: start;
     }
-    .how__item{
+
+    .how__item {
         width: 100%;
         max-width: 100%;
     }
-    .how__item p{
+
+    .how__item p {
         width: 100%;
         max-width: 86vw;
     }
+
     .how__item img,
-    .numbers img{
+    .numbers img {
         width: 100vw;
         max-width: initial;
         margin-left: -30px;
     }
 
-    .feedback__profiles-item{
+    .feedback__profiles-item {
         align-items: flex-start;
     }
-    .feedback__profiles-video{
+
+    .feedback__profiles-video {
         margin-left: -30px;
     }
 }
@@ -89,26 +108,32 @@
         overflow: hidden !important;
         width: 100% !important;
     }
-    .team-slide div:nth-child(2){
+
+    .team-slide div:nth-child(2) {
         margin-left: 0 !important;
     }
-    .team-slide div p:not(.white):before{
+
+    .team-slide div p:not(.white):before {
         left: 0;
     }
-    .main__bottom{
+
+    .main__bottom {
         max-width: 100%;
     }
-    .footer-wrap{
+
+    .footer-wrap {
         flex-direction: column;
     }
-    
-    .slideshow{
+
+    .slideshow {
         min-height: 500px;
     }
-    .about p.orange{
+
+    .about p.orange {
         font-size: 36px;
     }
-    .program__menu-item p.text{
+
+    .program__menu-item p.text {
         font-weight: 400;
     }
 }

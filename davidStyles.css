@@ -2,6 +2,10 @@
     flex-direction: column;
 }
 
+.team .arrows {
+    padding-bottom: 150px;
+}
+
 .team-slide div:nth-child(2) {
     padding: 0;
 }
@@ -112,6 +116,12 @@
 
     .team .container {
         min-height: auto;
+    }
+}
+
+@media(max-width: 1100px) {
+    .team .arrows {
+        padding-bottom: 50px;
     }
 }
 

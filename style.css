@@ -438,8 +438,8 @@ button:hover {
   position: absolute;
   top: 0;
   z-index: 0;
-  max-width: 633px;
-  max-height: 410px;
+  max-width: 822px;
+  max-height: 556px;
   right: 135px;
   width: 100%;
   height: 100%;
@@ -580,7 +580,7 @@ p {
   z-index: 0;
   max-width: 730px;
   width: 100%;
-  min-height: 368px;
+  min-height: 388px;
 }
 
 .success .white {
@@ -948,8 +948,11 @@ p {
   grid-area: txt;
 }
 
-.how__item img {
+.how__item .simpleParallax {
   grid-area: imag;
+}
+.how__item img{
+  max-width: 550px;
 }
 
 @media (max-width: 1023px) {
@@ -1666,6 +1669,10 @@ p {
   min-height: 100%;
   width: auto;
   height: auto;
+}
+
+.feedback__slider-wrp iframe{
+  height: initial;
 }
 
 /**/

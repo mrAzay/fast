@@ -2,6 +2,46 @@
     flex-direction: column;
 }
 
+section.first {
+    min-height: 100vh!important;
+    height: inherit!important;
+    box-sizing: border-box;
+}
+
+.program__menu-item p {
+    text-align: center;
+    padding: 10px 0;
+}
+
+section.slideshow {
+    padding-top: 11%!important;
+}
+
+.program__menu-item p.text {
+    text-align: left;
+}
+
+.program p.white {
+    margin-top: 100px!important;
+}
+
+.first__item .small {
+    margin-bottom: 40px;
+}
+
+.how__item .white,
+.how__item .small {
+    margin-left: -40px;
+}
+
+.how__item+.how__item {
+    margin-top: 150px;
+}
+
+.team .arrows {
+    padding-bottom: 150px;
+}
+
 .team-slide div:nth-child(2) {
     padding: 0;
 }
@@ -67,6 +107,14 @@
     .main__bottom h2 {
         max-width: 1200px;
     }
+
+    .team .team-slide {
+        min-height: auto!important;
+    }
+
+    section.first {
+        min-height: 70vh!important;
+    }
 }
 
 @media(max-width: 700px) {
@@ -111,6 +159,12 @@
     }
 }
 
+@media(max-width: 1100px) {
+    .team .arrows {
+        padding-bottom: 50px;
+    }
+}
+
 @media(max-width: 570px) {
     .team-slide .team-item-wrapper {
         flex-direction: column;
@@ -147,6 +201,38 @@
     }
 }
 
+@media(max-width: 420px) {
+    .team-slide div img {
+        max-width: 243px;
+        margin-bottom: 105px;
+    }
+
+    .team-slide .team-item-wrapper p:after {
+        display: block;
+    }
+
+    .team-slide .team__name .team__name-descr {
+        font-weight: 600;
+    }
+
+    .team__name-descr span {
+        font-weight: 700;
+    }
+
+    .team-slide .team__name {
+        margin-top: 20px;
+    }
+
+    .team .arrows {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .team .arrows img:first-child {
+        display: none;
+    }
+}
+
 @media(max-width: 720px) {
     .main__top {
         margin-top: 20px;
@@ -154,6 +240,23 @@
 
     .main__bottom {
         margin-top: 17vh;
+    }
+
+    .program p.white {
+        margin-top: 45px !important;
+    }
+
+    .how__item .white,
+    .how__item .small {
+        margin-left: 0px!important;
+    }
+
+    .how__item p.small {
+        margin-bottom: 59px!important;
+    }
+
+    section.slideshow {
+        padding-top: 7%!important;
     }
 }
 

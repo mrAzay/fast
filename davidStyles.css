@@ -8,8 +8,34 @@ section.first {
     box-sizing: border-box;
 }
 
+.program__menu-item p {
+    text-align: center;
+    padding: 10px 0;
+}
+
+section.slideshow {
+    padding-top: 11%!important;
+}
+
+.program__menu-item p.text {
+    text-align: left;
+}
+
+.program p.white {
+    margin-top: 100px!important;
+}
+
 .first__item .small {
     margin-bottom: 40px;
+}
+
+.how__item .white,
+.how__item .small {
+    margin-left: -40px;
+}
+
+.how__item+.how__item {
+    margin-top: 150px;
 }
 
 .team .arrows {
@@ -214,6 +240,23 @@ section.first {
 
     .main__bottom {
         margin-top: 17vh;
+    }
+
+    .program p.white {
+        margin-top: 45px !important;
+    }
+
+    .how__item .white,
+    .how__item .small {
+        margin-left: 0px!important;
+    }
+
+    .how__item p.small {
+        margin-bottom: 59px!important;
+    }
+
+    section.slideshow {
+        padding-top: 7%!important;
     }
 }
 

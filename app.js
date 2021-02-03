@@ -133,10 +133,14 @@ new simpleParallax(womenTwo);
 
 document.querySelector("form button").addEventListener("click", (e) => {
   e.preventDefault();
-  const params = new URLSearchParams();
-  params.append("name", document.querySelector("#name").value);
-  params.append("mail", document.querySelector("#mail").value);
-  params.append("phone", document.querySelector("#phone").value);
+  if (document.querySelector("#name").value !== '' && document.querySelector("#mail").value !== '' && document.querySelector("#phone").value !== '' && document.querySelector('#check').check ) {
+    const params = new URLSearchParams();
+    params.append("name", document.querySelector("#name").value);
+    params.append("mail", document.querySelector("#mail").value);
+    params.append("phone", document.querySelector("#phone").value);
+    axios.post("mail.php", params);
 
-  axios.post("mail.php", params);
+  }
+ 
+
 });

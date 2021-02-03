@@ -156,6 +156,7 @@ button:hover {
 }
 
 .main__top {
+  margin-top: 5vh;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -179,6 +180,10 @@ button:hover {
   width: 100%;
 }
 
+.main__bottom{
+  margin-top: auto;
+}
+
 .main__bottom h1 {
   font-weight: 900;
   font-size: 102px;
@@ -186,7 +191,7 @@ button:hover {
   text-transform: uppercase;
   text-align: start;
   color: #ffffff;
-  margin: 7% 0 3% 0;
+  margin: 5% 0 3% 0;
 }
 
 .main__bottom img {
@@ -292,7 +297,7 @@ button:hover {
   height: 100%;
   min-height: 100vh;
   box-sizing: border-box;
-  padding: 5% 200px 0;
+  padding: 9% 200px 0;
   position: relative;
 }
 
@@ -470,7 +475,6 @@ button:hover {
 /**/
 .free {
   height: 100%;
-  min-height: 100vh;
   box-sizing: border-box;
   position: relative;
   display: flex;
@@ -478,6 +482,7 @@ button:hover {
   align-items: flex-start;
   justify-content: space-around;
   text-align: start;
+  padding: 109px 0 122px 0;
 }
 
 .free p {
@@ -490,7 +495,7 @@ button:hover {
   line-height: 78px;
   max-width: 620px;
   color: #ffffff;
-  margin-bottom: 90px;
+  margin-bottom: 93px;
 }
 
 .free .small {
@@ -498,9 +503,8 @@ button:hover {
   font-size: 24px;
   line-height: 36px;
   color: #ffffff;
-  margin: 20px 0;
-  margin-bottom: 100px;
-  max-width: 460px;
+  margin: 0 0 67px;
+  max-width: 700px;
 }
 
 @media (max-width: 1023px) {
@@ -1149,6 +1153,7 @@ p {
   font-size: 64px;
   line-height: 78px;
   color: #ffffff;
+  margin: 10vh 0;
 }
 
 .program__menu {
@@ -2367,7 +2372,7 @@ div#gadsf21g {
     margin-bottom: 43px;
   }
 
-  .program .white {
+  .program p.white {
     margin-bottom: 60px;
   }
 
@@ -2495,6 +2500,7 @@ footer.footer .copy {
   display: flex;
   align-items: center;
   position: relative;
+  cursor: pointer;
 }
 
 .castom-check__castom-check {
@@ -2502,12 +2508,27 @@ footer.footer .copy {
   box-sizing: border-box;
   width: 21px;
   height: 21px;
+  display: flex;
+  align-items: center;
+  justify-content: center;  
+  margin-right: 15px;
 }
-
+.castom-check__castom-check svg{
+  display: none;
+}
 .castom-check__check {
   opacity: 0;
   width: 0;
   height: 0;
   position: absolute;
   visibility: hidden;
+}
+
+.castom-check__check:checked ~ .castom-check__castom-check{
+  background: #FF7E00;
+  border-color: #FF7E00;
+}
+
+.castom-check__check:checked ~ .castom-check__castom-check svg{
+  display: block;
 }

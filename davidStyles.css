@@ -63,6 +63,27 @@
     font-weight: 600;
 }
 
+@media(max-width: 1023px) {
+    .main__bottom h2 {
+        max-width: 1200px;
+    }
+}
+
+@media(max-width: 700px) {
+    .main__bottom {
+        position: static;
+    }
+
+    .main__bottom h2 {
+       position: static;
+    }
+
+    .main #free {
+        position: absolute;
+        bottom: 40px;
+        right: 30px;
+    }
+}
 
 
 @media(min-width: 600px) {
@@ -117,5 +138,27 @@
     .team .arrows {
         padding-left: 40px;
         padding-right: 40px;
+    }
+}
+
+@media(max-width: 450px) {
+    .main__bottom h1 {
+        font-size: 45px;
+    }
+}
+
+@media(max-width: 720px) {
+    .main__top {
+        margin-top: 20px;
+    }
+
+    .main__bottom {
+        margin-top: 17vh;
+    }
+}
+
+@media(max-height: 620px) {
+    .main__bottom {
+        margin-top: 9vh;
     }
 }

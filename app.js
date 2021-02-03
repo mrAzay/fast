@@ -47,6 +47,7 @@ for (let i = 0; i < youtube.length; i++) {
 
 const swiper = new Swiper(".feedback__slider-wrp", {
   spaceBetween: 165,
+  slidesPerView: 2,
   navigation: {
     nextEl: ".feedback__slider-right",
     prevEl: ".feedback__slider-left",

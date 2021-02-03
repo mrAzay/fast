@@ -138,6 +138,7 @@ button:hover {
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25) !important;
   border-radius: 60px !important;
   columns: #ff7e00 !important;
+  color: #FF7E00 !important;
 }
 
 /**/
@@ -155,6 +156,7 @@ button:hover {
 }
 
 .main__top {
+  margin-top: 5vh;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -178,6 +180,10 @@ button:hover {
   width: 100%;
 }
 
+.main__bottom{
+  margin-top: auto;
+}
+
 .main__bottom h1 {
   font-weight: 900;
   font-size: 102px;
@@ -185,7 +191,7 @@ button:hover {
   text-transform: uppercase;
   text-align: start;
   color: #ffffff;
-  margin: 7% 0 3% 0;
+  margin: 5% 0 3% 0;
 }
 
 .main__bottom img {
@@ -291,7 +297,7 @@ button:hover {
   height: 100%;
   min-height: 100vh;
   box-sizing: border-box;
-  padding: 5% 200px 0;
+  padding: 9% 200px 0;
   position: relative;
 }
 
@@ -386,18 +392,7 @@ button:hover {
 }
 
 /**/
-.numbers {
-  background: #343434;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: space-around;
-  box-sizing: border-box;
-  padding: 3% 200px 3%;
-  position: relative;
-  height: 100%;
-  min-height: 100vh;
-}
+
 
 .numbers-item {
   position: relative;
@@ -481,13 +476,13 @@ button:hover {
 .free {
   height: 100%;
   box-sizing: border-box;
-  padding: 3% 200px 3%;
   position: relative;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: space-around;
   text-align: start;
+  padding: 109px 0 122px 0;
 }
 
 .free p {
@@ -515,7 +510,6 @@ button:hover {
 @media (max-width: 1023px) {
   .free {
     height: 100vh;
-    padding: 3% 20px 3%;
   }
 
   .free p {
@@ -537,15 +531,6 @@ button:hover {
   }
 }
 
-/**/
-.mission {
-  height: 100%;
-  box-sizing: border-box;
-  padding: 3% 200px 3%;
-  position: relative;
-  padding-bottom: 200px;
-  background: #343434;
-}
 
 
 .mission .orange {
@@ -578,17 +563,6 @@ p {
   text-align: start;
 }
 
-.success {
-  height: 100%;
-  min-height: 100vh;
-  box-sizing: border-box;
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: space-around;
-  background: #343434;
-}
 
 .success:nth-child(n):not(img) {
   padding: 3% 200px 3%;
@@ -736,15 +710,6 @@ p {
   text-align: start;
 }
 
-.feedback {
-  height: 100%;
-  min-height: 100vh;
-  box-sizing: border-box;
-  padding: 7% 0 3%;
-  position: relative;
-  background: #343434;
-  padding-bottom: 400px;
-}
 
 .feedback__profiles-item {
   display: flex;
@@ -941,19 +906,6 @@ p {
 }
 
 /**/
-.how {
-  height: 100%;
-  min-height: 150vh;
-  box-sizing: border-box;
-  padding: 3% 200px 3%;
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: space-around;
-  text-align: start;
-  background: #343434;
-}
 
 .how h3 {
   padding-top: 65px;
@@ -1037,14 +989,7 @@ p {
 }
 
 /**/
-.slideshow {
-  height: 100%;
-  box-sizing: border-box;
-  padding: 7% 0 3%;
-  position: relative;
-  background: #343434;
-  padding-bottom: 300px;
-}
+
 
 .slideshow h3 {
   padding-bottom: 100px;
@@ -1197,20 +1142,7 @@ p {
   }
 }
 
-/**/
-.program {
-  background: #343434;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: space-around;
-  box-sizing: border-box;
-  padding: 3% 200px 3%;
-  position: relative;
-  height: 100%;
-  min-height: 70vh;
-  padding-bottom: 200px;
-}
+
 
 .program p {
   text-align: start;
@@ -1221,6 +1153,7 @@ p {
   font-size: 64px;
   line-height: 78px;
   color: #ffffff;
+  margin: 10vh 0;
 }
 
 .program__menu {
@@ -1296,20 +1229,7 @@ p {
   }
 }
 
-/**/
-.time {
-  background: #343434;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-  box-sizing: border-box;
-  padding: 0 200px 3%;
-  position: relative;
-  height: 100%;
-  min-height: 70vh;
-  padding-bottom: 200px;
-}
+
 
 .time-item {
   position: relative;
@@ -1537,6 +1457,8 @@ p {
   width: max-content;
 }
 
+<<<<<<< HEAD
+=======
 /**/
 .team {
   background: #343434;
@@ -1547,6 +1469,7 @@ p {
 
   height: 100%;
 }
+>>>>>>> a2abd7f16d21866fae3128673a3e5a1d91f7bbe8
 
 .first h3 {
   margin-bottom: 100px;
@@ -1713,7 +1636,15 @@ p {
 
 
 
+<<<<<<< HEAD
+@media(max-width: 530px){
+  .how__item .simpleParallax{
+    min-width: auto;
+  }
+}
+=======
 
+>>>>>>> b00b73c70d8664d4edf83bb112ba85fd90cdeada
 
 @media (max-width: 1023px) {
   .team {
@@ -1801,16 +1732,7 @@ label {
   color: #ffffff;
 }
 
-/**/
-.footer {
-  background: #343434;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  box-sizing: border-box;
-  padding-top: 200px;
-  position: relative;
-}
+
 
 .footer p {
   width: 60%;
@@ -2455,7 +2377,7 @@ div#gadsf21g {
     margin-bottom: 43px;
   }
 
-  .program .white {
+  .program p.white {
     margin-bottom: 60px;
   }
 

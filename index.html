@@ -11,6 +11,121 @@
       href="https://unpkg.com/swiper/swiper-bundle.min.css"
     />
     <title>Document</title>
+    <style>
+      .numbers {
+        background: #343434;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-around;
+        box-sizing: border-box;
+        position: relative;
+        min-height: 100vh;
+        padding-bottom: 165px;
+      }
+
+      .mission {
+        height: 100%;
+        box-sizing: border-box;
+        padding: 3% 200px 3%;
+        position: relative;
+        padding-bottom: 200px;
+        background: #343434;
+      }
+
+      .success {
+        height: 100%;
+        min-height: 100vh;
+        box-sizing: border-box;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-around;
+        background: #343434;
+      }
+
+      .feedback {
+        height: 100%;
+        min-height: 100vh;
+        box-sizing: border-box;
+        padding: 7% 0 3%;
+        position: relative;
+        background: #343434;
+        padding-bottom: 400px;
+      }
+
+      .how {
+        height: 100%;
+        min-height: 150vh;
+        box-sizing: border-box;
+        padding: 3% 200px 3%;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-around;
+        text-align: start;
+        background: #343434;
+      }
+
+      .slideshow {
+        height: 100%;
+        box-sizing: border-box;
+        padding: 7% 0 3%;
+        position: relative;
+        background: #343434;
+        padding-bottom: 300px;
+      }
+
+      .program {
+        background: #343434;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-around;
+        box-sizing: border-box;
+        padding: 3% 200px 3%;
+        position: relative;
+        height: 100%;
+        min-height: 70vh;
+        padding-bottom: 200px;
+      }
+
+      .time {
+        background: #343434;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        box-sizing: border-box;
+        padding: 0 200px 3%;
+        position: relative;
+        height: 100%;
+        min-height: 70vh;
+        padding-bottom: 200px;
+      }
+
+      .team {
+        background: #343434;
+        box-sizing: border-box;
+        padding: 3% 0 0;
+        position: relative;
+        padding-top: 126px;
+
+        height: 100%;
+      }
+
+      .footer {
+        background: #343434;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        box-sizing: border-box;
+        padding-top: 200px;
+        position: relative;
+      }
+    </style>
   </head>
 
   <body>
@@ -79,41 +194,34 @@
         <div class="container">
           <div class="whom__top">
             <h3>
-              для кого <br />
-              полезен <br />
-              тренинг
+              Польза <br />
+              нашего <br />
+              тренинга
             </h3>
           </div>
           <div class="whom__bottom">
             <div class="whom__bottom__left">
               <div class="list-item">
-                <p class="white">
-                  Хотите настроить команду на продуктивную работу?
-                </p>
+                <p class="white">Хотите повысить эффективность сотрудников?</p>
                 <p class="gray">
-                  Мы поможем прокачать коллектив на полную, добиться максимума
-                  от каждого члена команды и сплотить сотрудников вокруг общей
-                  миссии. А заодно повысить их лояльность.
+                  Мы поможем сотруднику развить концентрацию, прокачать разные
+                  типы мышления, улучшить коммуникативные навыки и умение
+                  отстаивать свою позицию и идеи.
                 </p>
               </div>
               <div class="list-item">
-                <p class="white">
-                  Хотите развить внимание, концентрацию и мышление?
-                </p>
+                <p class="white">Желаете улучшить продуктивность команды?</p>
                 <p class="gray">
-                  Мы поможем вам стать эффективнее, развить коммуникативные
-                  навыки, вливаться в любую команду, отставивать свою позицию и
-                  идеи.
+                  Прокачаем навыки работы в команде, поможем сотрудникам
+                  находить компромисс при выполнении рабочих задач, покажем
+                  наиболее эффективные способы командного взаимодействия.
                 </p>
               </div>
               <div class="list-item">
-                <p class="white">
-                  Хотите повысить качество коммуникации в команде?
-                </p>
+                <p class="white">Думаете о том, как сплотить коллектив?</p>
                 <p class="gray">
-                  Мы поможем научить сотрудников организовывать ситуативные
-                  команды под самые разные типы задач, улучшим взаимопонимание
-                  между ними и психологический климат в компании.
+                  Выявим и скорректируем дисбаланс в коллективе, улучшим
+                  психологический климат в компании.
                 </p>
               </div>
             </div>
@@ -162,41 +270,37 @@
       </section>
       <section class="numbers">
         <div class="container">
-          <img src="src/assets/women.webp" alt="Women" id="women" />
+          <img src="src/assets/women.jpg" alt="Women" id="women" />
           <div class="numbers-item">
-            <span class="orange"> 37</span>
+            <span class="orange"> 53</span>
             <p class="white" style="bottom: 2%">
               проведенных <br />
               тренингов
             </p>
           </div>
           <div class="numbers-item">
-            <span class="orange"> 680</span>
+            <span class="orange"> 188</span>
             <p class="white" style="bottom: -7%">
-              человек <br />
-              прошло <br />
-              нашу игру
+              часов <br />
+              игры <br />
             </p>
           </div>
           <div class="numbers-item">
-            <span class="orange"> 12</span>
+            <span class="orange"> 163</span>
             <p class="white" style="bottom: -9%">
-              компаний <br />
-              заказали игру <br />
-              повторно
+              человек <br />
+              прошло <br />
+              нашу игру
             </p>
           </div>
         </div>
       </section>
       <section class="free">
         <div class="container">
-          <p class="white">
-            Бесплатно проводим первый тренинг- <br />
-            презентацию
-          </p>
+          <p class="white">Проводим бесплатный демо-тренинг</p>
           <p class="small">
-            Просто оставьте номер телефона — мы свяжемся <br />
-            с вами сегодня же и расскажем подробности.
+            Оставьте номер телефона и мы свяжемся <br />
+            с вами сегодня и расскажем подробности.
           </p>
           <button>Оставить заявку</button>
         </div>
@@ -204,45 +308,50 @@
       <section class="mission">
         <div class="container">
           <h3>
-            в чём <br />
-            наша <br />
-            миссия
+            миссия <br />
+            «Дикого <br />
+            офиса»
           </h3>
           <p class="orange">
-            Мы делаем вашу команду единым организмом, способным решить любые
+            Мы cделаем вашу команду единым организмом, способным решить любые
             задачи.
           </p>
         </div>
       </section>
       <section class="success">
         <div class="container">
-          <img src="src/assets/people1.webp" alt="People" id="people" />
+          <img src="src/assets/people1.jpg" alt="People" id="people" />
           <h3>
             что мы<br />
             дадим <br />
             вам
           </h3>
           <p class="white">
-            Мы приносим успех. <br />
-            Почему?
+            Развитие ваших <br />
+            сотрудников
           </p>
           <div class="success__tips">
             <div class="tip">
-              <img src="src/assets/tip1.svg" alt="Icon" />
-              <p>Раскрываем скрытый потенциал каждого</p>
+              <img src="src/assets/tip4.svg" alt="Icon" />
+
+              <p>Прокачиваем личные и командные навыки</p>
             </div>
             <div class="tip">
               <img src="src/assets/tip2.svg" alt="Icon" />
-              <p>Развиваем ментальные способности</p>
+              <p>
+                Развиваем стратегическое, аналитическое и критическое мышение
+              </p>
+            </div>
+            <div class="tip">
+              <img src="src/assets/tip5.svg" alt="Icon" />
+
+              <p style="max-width: 193px">Повышаем уровень коммуникации</p>
             </div>
             <div class="tip">
               <img src="src/assets/tip3.svg" alt="Icon" />
-              <p style="max-width: 193px">Развиваем навыки командной работы</p>
-            </div>
-            <div class="tip">
-              <img src="src/assets/tip4.svg" alt="Icon" />
+
               <p style="max-width: 193px">
-                Эффективность команды возрастает в разы
+                Улучшаем эффективность работы в команде
               </p>
             </div>
           </div>
@@ -279,45 +388,43 @@
                     Василиса Шлемменбольтц
                   </div>
                 </div>
-                <iframe
-                  width="560"
-                  height="315"
-                  src="https://www.youtube.com/embed/f8VbiCGMOIY"
-                  frameborder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowfullscreen
-                  class="feedback__profiles-video"
-                ></iframe>
               </div>
+              <iframe
+                class="swiper-slide"
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/f8VbiCGMOIY"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+                class="feedback__profiles-video"
+              ></iframe>
               <div class="feedback__profiles-item swiper-slide">
                 <div class="feedback__profiles-info">
                   <span class="feedback__profiles-info__span">“</span>
                   <div class="feedback__profiles-text">
-                    Тренинг формирует командный дух, и тем самым влияет на рост
-                    и прибыль компании. Например, теперь мы все играем в
-                    крестики-нолики и пьём какао по утрам. А еще всей толпой
-                    побили быбку-вахтёршу. Потому что у неё нет командного духа
-                    и вообще.
+                    Мы теперь всей командой читаем “45 татуировок менеджера”,
+                    бросили курить и бегаем полумарафоны в обеденный перерыв.
+                    Даже бабка-вахтёрша.
                   </div>
                   <img
-                    src="src/assets/avatar.jpg"
+                    src="src/assets/avatar2.jpg"
                     alt=""
                     class="feedback__profiles-img"
                   />
-                  <div class="feedback__profiles-name">
-                    Василиса Шлемменбольтц
-                  </div>
+                  <div class="feedback__profiles-name">Вениамин Вареник</div>
                 </div>
-                <iframe
-                  width="560"
-                  height="315"
-                  src="https://www.youtube.com/embed/f8VbiCGMOIY"
-                  frameborder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowfullscreen
-                  class="feedback__profiles-video"
-                ></iframe>
               </div>
+              <iframe
+                class="swiper-slide"
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/f8VbiCGMOIY"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+                class="feedback__profiles-video"
+              ></iframe>
             </section>
           </div>
         </div>
@@ -339,9 +446,9 @@
       <section class="how">
         <div class="container">
           <h3>
-            как <br />
-            проходит <br />
-            тренинг
+            форматы <br />
+            проведения<br />
+            тренинга
           </h3>
           <article class="how__item">
             <img
@@ -351,18 +458,21 @@
             />
             <p class="white">Офлайн</p>
             <p class="small">
-              Мы проводим все тренинги комплекса в удобной вам локации — у вас в
-              офисе или на нашей территории. <br />
+              Мы проводим тренинги в удобной для вас локации: в вашем офисе или
+              помогаем подобрать подходящее помещение.
               <br />
-              Непринужденная атмосфера даст максимальную вовлеченность в
-              процесс. <br />
               <br />
+              Непринужденная атмосфера дает максимальную вовлеченность в
+              процесс.
+              <br />
+              <br />
+
               Идеальное сочетание игрового мероприятия и командного тренинга.
             </p>
           </article>
           <article class="how__item">
             <img
-              src="src/assets/online.png"
+              src="src/assets/online.jpg"
               class="online-img"
               alt="Online Meeting"
             />
@@ -384,7 +494,7 @@
           <h3>
             как<br />
             проходят<br />
-            игры
+            тренинги
           </h3>
           <div class="slideshow__slider-wrp">
             <section
@@ -431,16 +541,15 @@
             офис»
           </h3>
           <p class="orange">
-            «Дикий <br class="mobile" />
-            офис» — <br />
-            комплексный уникальный ролевой корпоративный тренинг с детективным
-            сюжетом
+            «Дикий офис» — <br />
+            тренинговая программа в игровом формате для развития сотрудников и
+            команды в целом.
           </p>
           <p class="gray">
-            Суть игры — в компанию под видом обычных офисных работников
-            внедряются рейдеры. Их задача — уволить директора и захватить
-            власть. <br />
-            <br />
+            Суть игры — в соперничестве двух команд. Победа зависит от умения
+            участников обсуждать идеи, доказывать свою точку зрения и
+            придерживаться общей позиции команды.
+            <br /><br />
             Цель каждого участника — привести команду к победе в борьбе за
             выживание.
           </p>
@@ -462,54 +571,47 @@
       <section class="program">
         <div class="container">
           <h3>
-            из чего <br />
-            состоит <br />
-            тренинг
+            этапы <br />
+            проведения <br />
+            тренинга
           </h3>
           <p class="white">Программа тренингов</p>
           <div class="program__menu">
             <div class="program__menu-item">
-              <p class="accordion-pre">1. Вводная лекция</p>
+              <p class="accordion-pre">1. Подготовка</p>
               <img src="src/assets/plus.svg" class="accordion" alt="Plus" />
               <div class="text-wrp">
                 <p class="text">
-                  Тренинги проходят в игровом формате, в непринужденной и
-                  знакомой участникам обстановке. Фактически они напоминают
-                  игру, при том что хорошо прокачивают командную работу и
-                  коммуникацию. Участники сами не заметят, как приобретут важные
-                  для работы в команде навыки, сплотятся в дружный коллектив и
-                  примут на себя несвойственные им ранее задачи. И при этом
-                  будут считать этот тренинг отличным тимбилдингом!
+                  Анкетирование и первичное тестирование сотрудников. Обсуждение
+                  ожидаемых результатов по каждому сотруднику и команды в целом.
+                  <br /><br />
+                  Конкретизация задач руководством по работе с коллективом.
                 </p>
               </div>
             </div>
             <div class="program__menu-item">
-              <p class="accordion-pre">2. Три игровых тренинга</p>
+              <p class="accordion-pre">2. Процесс</p>
               <img src="src/assets/plus.svg" class="accordion" alt="Plus" />
               <div class="text-wrp">
                 <p class="text">
-                  Тренинги проходят в игровом формате, в непринужденной и
-                  знакомой участникам обстановке. Фактически они напоминают
-                  игру, при том что хорошо прокачивают командную работу и
-                  коммуникацию. Участники сами не заметят, как приобретут важные
-                  для работы в команде навыки, сплотятся в дружный коллектив и
-                  примут на себя несвойственные им ранее задачи. И при этом
-                  будут считать этот тренинг отличным тимбилдингом!
+                  Модерация игровой сессии: распределение ролей, образов
+                  (никнеймов) и способностей. <br /><br />
+
+                  Игровая сессия, в ходе которой коучем учитываются
+                  индивидуальные аспекты. <br /><br />
+
+                  Анализ игровой сессии и подготовка к следующей, с учетом
+                  накопленной информации.
                 </p>
               </div>
             </div>
             <div class="program__menu-item">
-              <p class="accordion-pre">3. Фидбек от коуча и психолога</p>
+              <p class="accordion-pre">3. Обратная связь и корректировка</p>
               <img src="src/assets/plus.svg" class="accordion" alt="Plus" />
               <div class="text-wrp">
                 <p class="text">
-                  Тренинги проходят в игровом формате, в непринужденной и
-                  знакомой участникам обстановке. Фактически они напоминают
-                  игру, при том что хорошо прокачивают командную работу и
-                  коммуникацию. Участники сами не заметят, как приобретут важные
-                  для работы в команде навыки, сплотятся в дружный коллектив и
-                  примут на себя несвойственные им ранее задачи. И при этом
-                  будут считать этот тренинг отличным тимбилдингом!
+                  Получение обратной связи от сотрудников и руководства.
+                  Корректировка баланса воздействия на участников тренинга.
                 </p>
               </div>
             </div>
@@ -518,22 +620,22 @@
       </section>
       <section class="time">
         <div class="container">
-          <img src="src/assets/women2.webp" alt="Women" class="woomenTwo" />
+          <img src="src/assets/women2.jpg" alt="Women" class="woomenTwo" />
           <div class="time-item__wrapper">
             <div class="time-item">
-              <span class="orange"> 3</span>
+              <span class="orange">3-4</span>
               <p class="white" style="bottom: -21%">
-                три часа — <br />
                 длительность <br />
-                одного тренинга
+                тренинга в среднем <br />
+                от трех до четырех часов
               </p>
             </div>
             <div class="time-item">
               <span class="orange"> 8-25</span>
               <p class="white" style="bottom: -21%">
-                в трениге могут <br />
-                участвовать от 8 до 25 <br />
-                человек
+                в одной группе <br />
+                может быть от восьми <br />
+                до двадцати пяти ролей
               </p>
             </div>
           </div>
@@ -548,23 +650,24 @@
             тренинг
           </h3>
           <article class="first__item">
-            <p class="white">Оставьте заявку на сайте</p>
+            <p class="white">
+              Оставьте заявку <br />
+              на сайте
+            </p>
             <p class="small">
-              Прямо сейчас вы можете заполнить простую форму, и мы свяжемся с
-              вами в удобное время. <br />
-              Обсудим условия проведения тренинга, ответим<br />
-              на все ваши вопросы и выясним ключевые<br />
-              потребности и ожидания от игры.
+              Заполните форму и мы свяжемся с вами в удобное время. Ознакомим с
+              нашим предложением, ответим на ваши вопросы.
             </p>
           </article>
           <article class="first__item">
             <p class="white">
-              Первый презентационный тренинг мы проведём бесплатно
+              Демо-тренинг мы <br />
+              проведём бесплатно
             </p>
             <p class="small">
-              Мы покажем, насколько полезна и увлекательна игра <br />"Дикий
-              офис" и коллектив уже с первой пробы<br />
-              почувствует влияние тренинга.
+              Вы сможете убедиться в эффективности тренинга<br />
+              и оценить его влияние на каждого сотрудника<br />
+              и коллектив в целом.
             </p>
           </article>
           <button>Оставить заявку</button>

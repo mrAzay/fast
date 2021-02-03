@@ -147,6 +147,38 @@
     }
 }
 
+@media(max-width: 420px) {
+    .team-slide div img {
+        max-width: 243px;
+        margin-bottom: 105px;
+    }
+
+    .team-slide .team-item-wrapper p:after {
+        display: block;
+    }
+
+    .team-slide .team__name .team__name-descr {
+        font-weight: 600;
+    }
+
+    .team__name-descr span {
+        font-weight: 700;
+    }
+
+    .team-slide .team__name {
+        margin-top: 20px;
+    }
+
+    .team .arrows {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .team .arrows img:first-child {
+        display: none;
+    }
+}
+
 @media(max-width: 720px) {
     .main__top {
         margin-top: 20px;

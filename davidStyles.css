@@ -2,6 +2,16 @@
     flex-direction: column;
 }
 
+section.first {
+    min-height: 100vh!important;
+    height: inherit!important;
+    box-sizing: border-box;
+}
+
+.first__item .small {
+    margin-bottom: 40px;
+}
+
 .team .arrows {
     padding-bottom: 150px;
 }
@@ -74,6 +84,10 @@
 
     .team .team-slide {
         min-height: auto!important;
+    }
+
+    section.first {
+        min-height: 70vh!important;
     }
 }
 

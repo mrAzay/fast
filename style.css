@@ -123,6 +123,32 @@ button {
     font-size: 13px;
   }
 }
+.error{
+  display: none;
+  color: red;
+  font-size: 12px;
+}
+
+form input.active{
+  border-color: red;
+}
+
+form label.active{
+  color: red;
+}
+
+.swiper-slide.youtube{
+  height: auto !important;
+  padding: 0 !important;
+}
+.swiper-slide.youtube img{
+  top: 0;
+}
+
+.error.active{
+  display: block;
+}
+
 
 button:focus {
   background: #343434 !important;
@@ -130,6 +156,7 @@ button:focus {
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25) !important;
   border-radius: 60px !important;
   columns: #ff7e00 !important;
+  color: #ff7e00 !important;
 }
 
 button:hover {
@@ -575,7 +602,7 @@ p {
 
 .success .simpleParallax {
   position: absolute;
-  top: -132px;
+  top: -52px;
   right: 165px;
   z-index: 0;
   max-width: 730px;
@@ -769,14 +796,16 @@ p {
 .feedback {
   overflow: hidden;
   position: relative;
-  padding-bottom: 200px;
+  padding-bottom: 4first00px;
 }
 
 .how {
   padding-top: 0 !important;
   min-height: 0 !important;
 }
-
+.first h3{
+  margin-bottom: 100px;
+}
 .feedback-slide {
   display: flex;
   text-align: start;
@@ -875,7 +904,7 @@ p {
   position: absolute;
   box-sizing: border-box;
   width: 100%;
-  bottom: 100px;
+  bottom: 300px;
   padding: 0 3%;
 }
 
@@ -1330,9 +1359,12 @@ p {
   line-height: 70px;
   color: #ffffff;
   width: auto !important;
-  margin-bottom: 40px;
+  margin-bottom: 50px;
 }
-
+.first__item+.first__item{
+  margin-top: 120px;
+  margin-bottom: 80px;
+}
 .first__item .first__item:first-child .white {
   max-width: 600px;
   margin-top: 100px;

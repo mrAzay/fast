@@ -37,8 +37,8 @@ for (let i = 0; i < youtube.length; i++) {
     iframe.setAttribute(
       "src",
       "https://www.youtube.com/embed/" +
-        this.dataset.embed +
-        "?rel=0&showinfo=0&autoplay=1"
+      this.dataset.embed +
+      "?rel=0&showinfo=0&autoplay=1"
     );
     this.innerHTML = "";
     this.appendChild(iframe);
@@ -137,14 +137,50 @@ new simpleParallax(womenTwo);
 
 document.querySelector("form button").addEventListener("click", (e) => {
   e.preventDefault();
-  if (document.querySelector("#name").value !== '' && document.querySelector("#mail").value !== '' && document.querySelector("#phone").value !== '' && document.querySelector('#check').check ) {
+
+  if (document.querySelector("#name").value !== '' && document.querySelector("#mail").value !== '' && document.querySelector("#phone").value !== '' && document.querySelector('#check').checked) {
     const params = new URLSearchParams();
     params.append("name", document.querySelector("#name").value);
     params.append("mail", document.querySelector("#mail").value);
     params.append("phone", document.querySelector("#phone").value);
     axios.post("mail.php", params);
-
   }
- 
+
+  if (document.querySelector("#name").value == '') {
+    document.querySelector('.name__error').classList.add('active')
+    document.querySelector("#name").classList.add('active')
+    document.querySelector(".label__name").classList.add('active')
+  } else {
+    document.querySelector('.name__error').classList.remove('active')
+    document.querySelector("#name").classList.remove('active')
+    document.querySelector(".label__name").classList.remove('active')
+  }
+  if (document.querySelector("#mail").value == '') {
+    document.querySelector('.mail__error').classList.add('active')
+    document.querySelector("#mail").classList.add('active')
+    document.querySelector(".label__mail").classList.add('active')
+  } else {
+    document.querySelector('.mail__error').classList.remove('active')
+    document.querySelector("#mail").classList.remove('active')
+    document.querySelector(".label__mail").classList.remove('active')
+  }
+  if (document.querySelector("#phone").value == '') {
+    document.querySelector('.phone__error').classList.add('active')
+    document.querySelector("#phone").classList.add('active')
+    document.querySelector(".label__phone").classList.add('active')
+  } else {
+    document.querySelector('.phone__error').classList.remove('active')
+    document.querySelector("#phone").classList.remove('active')
+    document.querySelector(".label__phone").classList.remove('active')
+  }
+  if (!document.querySelector("#check").checked) {
+    document.querySelector('.check__error').classList.add('active')
+    document.querySelector("#check").classList.add('active')
+    document.querySelector(".castom-check").classList.add('active')
+  } else {
+    document.querySelector('.check__error').classList.remove('active')
+    document.querySelector("#check").classList.remove('active')
+    document.querySelector(".castom-check").classList.remove('active')
+  }
 
 });

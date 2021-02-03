@@ -6,6 +6,7 @@ section.first {
     min-height: 100vh!important;
     height: inherit!important;
     box-sizing: border-box;
+    padding-bottom: 150px;
 }
 
 .program__menu-item p {

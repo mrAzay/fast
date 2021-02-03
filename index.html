@@ -422,16 +422,9 @@
                   </div>
                 </div>
               </div>
-              <iframe
-                class="swiper-slide"
-                width="560"
-                height="315"
-                src="https://www.youtube.com/embed/f8VbiCGMOIY"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen
-                class="feedback__profiles-video"
-              ></iframe>
+        <div class="youtube swiper-slide" data-embed="mebehGNS964">
+                <div class="play-button"></div>
+              </div>
               <div class="feedback__profiles-item swiper-slide">
                 <div class="feedback__profiles-info">
                   <span class="feedback__profiles-info__span">“</span>
@@ -448,16 +441,10 @@
                   <div class="feedback__profiles-name">Вениамин Вареник</div>
                 </div>
               </div>
-              <iframe
-                class="swiper-slide"
-                width="560"
-                height="315"
-                src="https://www.youtube.com/embed/f8VbiCGMOIY"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen
-                class="feedback__profiles-video"
-              ></iframe>
+              <div class="youtube swiper-slide" data-embed="mebehGNS964">
+                <div class="play-button"></div>
+              </div>
+           
             </section>
           </div>
         </div>
@@ -1004,13 +991,16 @@
             Обсудим условия проведения тренинга, ответим на все ваши вопросы и
             выясним ключевые потребности и ожидания от игры.
           </p>
-          <form action="#">
-            <label for="name"> Имя</label>
+          <form>
+            <label class="label__name" for="name"> Имя</label>
             <input type="text" id="name" />
-            <label for="mail"> E-mail</label>
+            <span class="name__error error">Введите имя</span>
+            <label class="label__mail" for="mail"> E-mail</label>
             <input type="text" id="mail" />
-            <label for="phone"> Телефон</label>
-            <input placeholder="+380" type="text" id="phone" />
+            <span class="mail__error error">Введите почту</span>
+            <label class="label__phone" for="phone"> Телефон</label>
+            <input placeholder="+380" type="text"  id="phone" />
+            <span class="phone__error error">Введите телефон</span>
             <label class="castom-check">
               <input class="castom-check__check" type="checkbox" name="" id="check">
               <div class="castom-check__castom-check">
@@ -1021,6 +1011,7 @@
               </div>
               <div class="castom-check__text">Даю согласие на обработку и хранение персональных данных</div>
             </label>
+            <span class="check__error error">Подтвердите согласие</span>
             <button>Оставить заявку</button>
           </form>
           <div class="footer__contacts">

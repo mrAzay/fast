@@ -94,15 +94,19 @@ const swiperThree = new Swiper(".hooper-list", {
       spaceBetween: 0,
     },
     645: {
-      slidesPerView: 1.1,
-      spaceBetween: 20,
+      slidesPerView: 1,
+      spaceBetween: 15,
     },
     820: {
-      slidesPerView: 1.35,
-      spaceBetween: 40,
+      slidesPerView: 1.07,
+      spaceBetween: 25,
+    },
+    920: {
+      slidesPerView: 1.1,
+      spaceBetween: 30,
     },
     1100: {
-      slidesPerView: 1.4,
+      slidesPerView: 1.2,
       spaceBetween: 50,
     },
     1223: {

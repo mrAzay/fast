@@ -67,6 +67,10 @@
     .main__bottom h2 {
         max-width: 1200px;
     }
+
+    .team .team-slide {
+        min-height: auto!important;
+    }
 }
 
 @media(max-width: 700px) {

@@ -10,6 +10,14 @@
     display: none;
 }
 
+.team .arrows {
+    max-width: 1450px;
+    padding-left: 174px;
+    padding-right: 174px;
+    margin: 20px auto 0;
+    box-sizing: border-box;
+} 
+
 .team-slide .team-item-wrapper {
     margin: 0;
     display: flex;

@@ -55,9 +55,7 @@
     font-weight: 600;
 }
 
-.team .container {
-    padding: 0 30px!important;
-}
+
 
 @media(min-width: 600px) {
     .team .arrows {

@@ -102,7 +102,11 @@
         margin-left: -30px;
     }
 }
-
+@media(max-width: 540px){
+    .how__item .simpleParallax{
+        min-width: auto !important;
+    }
+}
 @media (max-width: 460px) {
     .swiper-container:not(.feedback__slider-wrp) {
         overflow: hidden !important;

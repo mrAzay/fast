@@ -138,6 +138,7 @@ button:hover {
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25) !important;
   border-radius: 60px !important;
   columns: #ff7e00 !important;
+  color: #FF7E00 !important;
 }
 
 /**/
@@ -471,7 +472,6 @@ button:hover {
   height: 100%;
   min-height: 100vh;
   box-sizing: border-box;
-  padding: 3% 200px 3%;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -506,7 +506,6 @@ button:hover {
 @media (max-width: 1023px) {
   .free {
     height: 100vh;
-    padding: 3% 20px 3%;
   }
 
   .free p {

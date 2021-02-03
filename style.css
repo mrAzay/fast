@@ -156,6 +156,7 @@ button:hover {
 }
 
 .main__top {
+  margin-top: 5vh;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -179,6 +180,10 @@ button:hover {
   width: 100%;
 }
 
+.main__bottom{
+  margin-top: auto;
+}
+
 .main__bottom h1 {
   font-weight: 900;
   font-size: 102px;
@@ -186,7 +191,7 @@ button:hover {
   text-transform: uppercase;
   text-align: start;
   color: #ffffff;
-  margin: 7% 0 3% 0;
+  margin: 5% 0 3% 0;
 }
 
 .main__bottom img {
@@ -292,7 +297,7 @@ button:hover {
   height: 100%;
   min-height: 100vh;
   box-sizing: border-box;
-  padding: 5% 200px 0;
+  padding: 9% 200px 0;
   position: relative;
 }
 
@@ -1149,6 +1154,7 @@ p {
   font-size: 64px;
   line-height: 78px;
   color: #ffffff;
+  margin: 10vh 0;
 }
 
 .program__menu {
@@ -2372,7 +2378,7 @@ div#gadsf21g {
     margin-bottom: 43px;
   }
 
-  .program .white {
+  .program p.white {
     margin-bottom: 60px;
   }
 

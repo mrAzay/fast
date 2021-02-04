@@ -10,7 +10,6 @@ section.first {
 }
 
 .program__menu-item p {
-    text-align: center;
     padding: 10px 0;
 }
 
@@ -77,6 +76,7 @@ section.slideshow {
 .team-slide .team-item-wrapper p::after {
     content: '“';
     position: absolute;
+    z-index: -1;
     left: 0;
     top: 0;
     transform: translate(0, -42%);

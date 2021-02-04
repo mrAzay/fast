@@ -6,7 +6,7 @@ section.first {
     min-height: 100vh!important;
     height: inherit!important;
     box-sizing: border-box;
-    padding-bottom: 150px;
+    padding: 150px 0;
 }
 
 .program__menu-item p {
@@ -15,7 +15,8 @@ section.first {
 }
 
 section.slideshow {
-    padding-top: 11%!important;
+    padding-top: 11%;
+    padding-bottom: 250px;
 }
 
 .program__menu-item p.text {
@@ -36,7 +37,7 @@ section.slideshow {
 }
 
 .how__item+.how__item {
-    margin-top: 150px;
+    margin-top: 200px;
 }
 
 .team .arrows {
@@ -257,7 +258,7 @@ section.slideshow {
     }
 
     section.slideshow {
-        padding-top: 7%!important;
+        padding-top: 7%;
     }
 }
 

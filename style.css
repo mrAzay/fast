@@ -558,6 +558,9 @@ button:hover {
   }
 }
 
+body .mission{
+  padding: 125px 0 165px  0;
+}
 
 
 .mission .orange {
@@ -787,6 +790,10 @@ p {
   margin-bottom: 188px;
 }
 
+body .feedback{
+  padding-bottom: 270px;
+}
+
 
 .feedback__slider-wrp {
   position: relative;
@@ -904,7 +911,7 @@ p {
   position: absolute;
   box-sizing: border-box;
   width: 100%;
-  bottom: 300px;
+  bottom: 200px;
   padding: 0 3%;
 }
 
@@ -1063,7 +1070,7 @@ p {
   padding: 0 5%;
   position: absolute;
   width: 90%;
-  bottom: 200px;
+  bottom: 160px;
 }
 
 .about .container {
@@ -1081,7 +1088,7 @@ p {
   height: 100%;
   min-height: 100vh;
   box-sizing: border-box;
-  padding: 3% 200px 3%;
+  padding: 10vh 200px 3%;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -1261,7 +1268,9 @@ p {
   }
 }
 
-
+body .time{
+  padding-bottom: 7vh;
+}
 
 .time-item {
   position: relative;
@@ -1507,6 +1516,10 @@ p {
 
 >>>>>>>a2abd7f16d21866fae3128673a3e5a1d91f7bbe8 .first h3 {
   margin-bottom: 100px;
+}
+
+body .team {
+  padding: 150px 0 0;
 }
 
 .team h3 {
